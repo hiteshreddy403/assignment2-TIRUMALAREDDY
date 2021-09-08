@@ -18,3 +18,16 @@ Hyderabad is a city which is located in **telangana** and it gives us great **op
 - I have presented iphone13 to my brother and watch to father and mother  they felt so happy.
 
 Take me to [AboutMe](AboutMe.md)
+
+---
+## Beverage Section
+List of Beverages in kFC, location and price table
+
+| Drink	| Location | Price   |
+| ------| -------- | --------|
+| PEPSI	| KFC      | $2.00   |
+| SPRITE| KFC      | $1.50   |
+| LIMCA | KFC      | $1.00   |
+| SODA  | KFC      | $1.10   |
+
+---
