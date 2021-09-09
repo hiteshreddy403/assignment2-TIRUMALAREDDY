@@ -42,3 +42,31 @@ As Albert Einstein said:
 >Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”
 
 ---
+
+### Code Fencing
+
+*Treap Merge operation* 
+
+> Because a Cartesian tree is a binary tree, it is natural to use it as a binary search tree for an ordered sequence of values. 
+> This idea was applied by Seidel & Aragon (1996), who suggested the use of random numbers as priorities. The data structure resulting from this random choice is called a treap. 
+> (t,r) combines two subtrees t and r and returns the new tree. This operation also has O(logN) complexity. 
+> It works under the assumption that t and r are ordered. Thus, we need to combine these trees without violating the order of priorities. To do this, we choose as the root the tree which has higher priority in the root node, and recursively call Merge for the other tree and the corresponding subtree of the selected root node.
+
+Treap Merge Operation [Reference_link](https://en.wikipedia.org/wiki/Cartesian_tree)
+
+code for Treap Merge operation
+
+      void merge (pitem & t,pitem l,pitem r)
+      {
+      if (!l || !r)
+      t = l ? l : r;
+      else if (l->prior > r->prior)
+      merge (l->r, l->r, r),  t = l;
+      else
+      merge (r->l, l, r->l),  t = r;
+      }
+
+
+
+
+Treap Merge Operation [Code_link](https://cp-algorithms.com/data_structures/treap.html)
