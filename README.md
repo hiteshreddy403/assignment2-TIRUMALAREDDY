@@ -31,3 +31,14 @@ List of Beverages in kFC, location and price table
 | SODA  | KFC      | $1.10   |
 
 ---
+
+---
+## Pithy Quotes
+
+As Albert Einstein said:
+
+> “Two things are infinite: the universe and human stupidity I'm not sure about the universe.”
+
+>Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”
+
+---
